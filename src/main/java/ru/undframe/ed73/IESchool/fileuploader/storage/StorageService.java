@@ -1,4 +1,4 @@
-package ru.undframe.ed73.IESchool.fileuploader;
+package ru.undframe.ed73.IESchool.fileuploader.storage;
 
 import org.springframework.core.io.Resource;
 import org.springframework.web.multipart.MultipartFile;

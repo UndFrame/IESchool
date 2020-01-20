@@ -1,4 +1,4 @@
-package ru.undframe.ed73.IESchool;
+package ru.undframe.ed73.IESchool.greeting;
 
 import java.util.concurrent.atomic.AtomicLong;
 

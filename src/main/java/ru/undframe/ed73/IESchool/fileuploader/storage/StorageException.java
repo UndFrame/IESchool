@@ -1,6 +1,11 @@
 package ru.undframe.ed73.IESchool.fileuploader.storage;
 
-public class StorageException extends Throwable {
-    public StorageException(String s) {
+public class StorageException extends RuntimeException {
+    public StorageException(String message) {
+        super(message);
+    }
+
+    public StorageException(String message, Throwable cause) {
+        super(message, cause);
     }
 }

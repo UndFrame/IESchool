@@ -1,10 +1,10 @@
 package ru.undframe.ed73.IESchool.relationaldataaccess;
 
-public class Customer {
+public class User {
     private long id;
     private String firstName, lastName;
 
-    public Customer(long id, String firstName, String lastName) {
+    public User(long id, String firstName, String lastName) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;

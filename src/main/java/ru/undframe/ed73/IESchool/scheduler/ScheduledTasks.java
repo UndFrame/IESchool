@@ -1,4 +1,4 @@
-package ru.undframe.ed73.IESchool;
+package ru.undframe.ed73.IESchool.scheduler;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
