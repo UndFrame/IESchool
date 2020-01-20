@@ -1,0 +1,360 @@
+<InitMainVars>
+PS_DIRECTORY ** Not Set ** 
+ argv[0] is 'E:\\dsrc\x86e_win64\obj\ptcsetup.exe'
+ Try to figure it out now 
+ Path1 NOW: E:\dsrc\x86e_win64\obj\ptcsetup.exe
+Now look for: E:\dsrc\text\compiled_resource\ps_default_resources.dll
+Found E:\dsrc\text\compiled_resource\ps_default_resources.dll
+ Resource file exists at: E:\dsrc\text\compiled_resource\ps_default_resources.dll
+ So, set PS_DIRECTORY to: E:\dsrc
+PTC_CDHOME ** Not Set ** 
+Now look for: E:\ptc_inst\cdmaster.ptc
+ So, set PTC_CDHOME to: E:\
+<PsGetVar> Failed for: PTC_CDHOME
+DPS_DIRECTORY ** Not Set ** 
+ So, set DPS_DIRECTORY to: E:\dsrc
+DONE <InitMainVars>
+<PsCd::PsCd> (E:\)
+<PsGetVar> Failed for: PS_INF_PATH
+<PsGetVar> Failed for: PS_INF_FILE
+ptc_inf_path: E:\ptc_inst\ptc.inf
+<PsGetVar> Failed for: PS_ARCH_DB
+<PsInfFile::ReadInf> 'E:\ptc_inst\ptc.inf'
+PsCD::LoadSummary
+PsInfFile::ReadInf ignoreCluster = 1
+Start of ReadInf time stamp: Пт ноя 22 15:17:18 RTZ 3 (зима) 2019
+End of ReadInf time stamp: Пт ноя 22 15:17:18 RTZ 3 (зима) 2019
+Init Translation/Message system
+
+ ---------------------------------- 
+ |      Welcome to PTC.Setup      | 
+ ---------------------------------- 
+ Time: Пт ноя 22 15:17:18 RTZ 3 (зима) 2019
+ Could not get DomainName 
+ Host: DESKTOP-CQ1O1QL
+ Machine type: x86e_win64
+ User: undfr
+ CurDir: E:\
+ PTC.Setup build info: Oct 21 2015 08:51:36
+ get_internal_version(): L-03-62
+ --------------------------------------------
+
+<PsGetVar> Failed for: PS_CDMASTER
+<PsCd::readResfile> cdmaster.ptc
+<PsCd::addProduct> (mathcad)
+    <PsInstall::PsInstall> loadpoint: 
+    <PsInstall::Refresh> Path: ''
+Returning from PsInstall::Refresh because Path.IsEmpty
+<PsProduct::SetLoadpoint> new loadpoint: 
+ConvertDBAdd __PSF_COMMENT__ '//'
+<PsProduct::readResfile> E:\ptc_inst\mathcad.ptc
+<PsCd::addProduct> (flexlm)
+    <PsInstall::PsInstall> loadpoint: 
+    <PsInstall::Refresh> Path: ''
+Returning from PsInstall::Refresh because Path.IsEmpty
+<PsProduct::SetLoadpoint> new loadpoint: 
+ConvertDBAdd __PSF_COMMENT__ '//'
+<PsProduct::readResfile> E:\ptc_inst\flexlm.ptc
+PsPackage:: Setting up ezActions for pkg: uninstall
+PsPackage:: Setting up ezActions for pkg: ptcutil
+current flexver: 6.1
+default flexver: 6.1
+set_unihttp CB to PsDownloadAuth
+ClickWrapLA: clickwrap_la
+set_unihttp CB to PsDownloadAuth
+ConvertDBAdd __HOSTID__ '50-2B-73-C4-8F-2A'
+ConvertDBAdd __PRODUCT__ 'Mathcad'
+ConvertDBAdd __RELNUM__ '15.0'
+ConvertDBAdd __DCODE__ 'M045'
+<SetDlgBrowse> ScreenStudentLic.StudentLicFileBrowse - ScreenStudentLic.StudentLicFile type:2
+DirList.GetSize() = 41
+Generic InitFunc: ScreenDftCmds
+PsSetCompVal failed for ScreenServlet
+BEGIN ScreenWebPub::InitFunc()
+<LpcfgDcadCmd::InitFunc>
+ConvertDBAdd __WEBBROWSER__ 'netscape'
+Setup ScreenWelcome
+ScreenWelcome::DisplayLA - CountrySelected: 
+Which License Agreement will we display: clickwrap_la
+The Current UI Language: russian
+License Agreement Found: E:\dsrc\text\russian\clickwrap_la.txt
+pushed is product btnScreenWelcome.ProdButton.0
+ScreenWelcome PostFunc Dir = 1
+ConvertDBAdd __INSTBLE__ 'Mathcad'
+ConvertDBAdd __PRODUCT__ 'Mathcad'
+ScreenWelcome Product::PreCheck for: Mathcad
+PsProductMathcad_precheck called.
+Testing for PreReq .NET 3.5 SP 1 
+PsDotNetFrameworkInstalled: found : v3.5  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5]
+	Looking for SP 1
+	Found SP 1
+Testing for PreReq IE >= 5.0 
+                   IE == 9.11.18362.0
+Testing for PreReq MSXML 6 
+ Major version of C:\Windows\system32\msxml3.dll is 8
+ Major version of C:\Windows\system32\msxml3r.dll is 8
+ Major version of C:\Windows\system32\msxml6.dll is 6
+ MSXML dll version 6.* criteria matched. 
+Search criteria matches MSXML  
+msi.dll Version == 5.0
+Testing for PreReq Acrobat Reader
+Raise Error DialogДля просмотра документации в формате PDF для Mathcad 15 в системе должен быть установлен Adobe Acrobat Reader.
+Чтобы загрузить нужный установочный файл Acrobat Reader, воспользуйтесь приведенной ниже ссылкой.
+IsVista() returning = 0
+Marking as Windows7 because we found SetCurentProcessExplicitAppUserModelID()
+IsWindows7() returning = 1
+MathcadFeature = 164
+SizeProp.Set(MathcadFeature) = 172986880
+HELP = 45
+SizeProp.Set(HELP) = 47849472
+ResourceCenter = 95
+SizeProp.Set(ResourceCenter) = 100044800
+DOC = 11
+SizeProp.Set(DOC) = 11538432
+dataPack = 12
+SizeProp.Set(dataPack) = 13099008
+Signal = 8
+SizeProp.Set(Signal) = 9297920
+Wavelets = 14
+SizeProp.Set(Wavelets) = 14774272
+Image = 28
+SizeProp.Set(Image) = 29442048
+<PsInfFile::ReadInf> 'E:\ptc_inst\ptc.inf'
+PsCD::LoadSummary
+PsInfFile::ReadInf ignoreCluster = 0
+Start of ReadInf time stamp: Пт ноя 22 15:17:32 RTZ 3 (зима) 2019
+<PsInfFile::ReadInf> 'UseMsiFeatureSize' = 1
+ PsInfFile::ReadInf - Reread the ptc.inf file 
+cdsectionsize path = E:\ptc_inst\cdsectionsize.txt
+cdsectionsize file was found
+Continue with UNIX case
+MathcadFeature = 172986880
+TOTAL = 172986880
+End of ReadInf time stamp: Пт ноя 22 15:17:32 RTZ 3 (зима) 2019
+SAVE EzProp OptionMenu label: ScreenWelcome.CountryMenu = []
+SAVE EzProp OptionMenu value: ScreenWelcome.CountryMenu = []
+SAVE EzProp CheckButton: ScreenWelcome.AcceptBtn = [TRUE]
+SAVE EzProp CheckButton: ScreenWelcome.DeclineBtn = [FALSE]
+tempfile = [E:\dsrc]
+ Skipping Screen: ScreenLicAgree
+Generic PostFunc: ScreenMathcadTrial
+SAVE EzProp RadioGroup: ScreenMathcadTrial.RgrpMcadTrial = [trial]
+SAVE EzProp RadioGroup: ScreenMathcadTrial.RgrpPrimeLic = [trial]
+Generic PostFunc: ScreenMathcadCustom
+SAVE EzProp RadioGroup: ScreenMathcadCustom.RgrpMcadCustom = [custom]
+Convert(2): Possible key missing from ConvertDB: __LOADPOINT__
+PsGetDBValue: keyword (__LOADPOINT__) wasn't found.
+Setting up default loadpoint 
+<PsGetVar> Failed for: PS_ALT_ROOTPATH
+    <PsInstall::PsInstall> loadpoint: C:\Program Files (x86)\Mathcad\Mathcad 15
+    <PsInstall::Refresh> Path: 'C:\Program Files (x86)\Mathcad\Mathcad 15'
+looking for ProgramFiles x86 
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\mathcad_instlog.txt
+Using InstLog: C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\instlog.txt
+InitLPdcode inst_log: C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+C:\Program Files (x86)\Mathcad\Mathcad 15\version\mathcad.ver doesn't exist
+Look for: C:\Program Files (x86)\Mathcad\Mathcad 15\version\mathcad.ver
+C:\Program Files (x86)\Mathcad\Mathcad 15\version\mathcad.ver doesn't exist
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\mathcad_instlog.txt
+Using InstLog: C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\mathcad_instlog.txt
+Using InstLog: C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\mathcad_instlog.txt
+Using InstLog: C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+ New Cluster Size for this disk: 4096
+<PsInfFile::ReadInf> 'E:\ptc_inst\ptc.inf'
+PsCD::LoadSummary
+PsInfFile::ReadInf ignoreCluster = 0
+Start of ReadInf time stamp: Пт ноя 22 15:17:37 RTZ 3 (зима) 2019
+<PsInfFile::ReadInf> 'UseMsiFeatureSize' = 1
+ PsInfFile::ReadInf - Reread the ptc.inf file 
+cdsectionsize path = E:\ptc_inst\cdsectionsize.txt
+cdsectionsize file was found
+Current ClusterSize = 4096
+cdsectionsizeIdx = 5
+MathcadFeature = 172986880
+TOTAL = 172986880
+End of ReadInf time stamp: Пт ноя 22 15:17:37 RTZ 3 (зима) 2019
+<PsProduct::SetLoadpoint> new loadpoint: C:\Program Files (x86)\Mathcad\Mathcad 15
+<PsProduct::SetLoadpoint> old Loadpoint: 
+ScreenProd::UpdateReleaseLab for lp =[C:\Program Files (x86)\Mathcad\Mathcad 15]
+ReleaseLab.SetLabel: lab_str =[Установить 15.0 M045]
+ScreenProd::PreFunc instdir_val = C:\Program Files (x86)\Mathcad\Mathcad 15
+ScreenProd::PreFunc update_flag = 0
+GetByteSpaceReq MATHCAD return size = 1.72987e+008
+GetByteSpaceReq MATHHELP return size = 4.78495e+007
+GetByteSpaceReq MATHCAD_RC return size = 1.00045e+008
+GetByteSpaceReq MATHDOC return size = 1.15384e+007
+GetByteSpaceReq mathcad_help_ext return size = 6.66132e+007
+GetByteSpaceReq MATHCAD_EXT_datapack return size = 1.3099e+007
+GetByteSpaceReq MATHCAD_EXT_signal return size = 9.29792e+006
+GetByteSpaceReq MATHCAD_EXT_wavelets return size = 1.47743e+007
+GetByteSpaceReq MATHCAD_EXT_image return size = 2.9442e+007
+GetByteSpaceReq MATHCAD return size = 1.72987e+008
+GetByteSpaceReq MATHHELP return size = 4.78495e+007
+GetByteSpaceReq MATHCAD_RC return size = 1.00045e+008
+GetByteSpaceReq MATHDOC return size = 1.15384e+007
+GetByteSpaceReq mathcad_help_ext return size = 6.66132e+007
+Pkg: MATHCAD found to be not installed
+Pkg: MATHHELP found to be not installed
+Pkg: MATHCAD_RC found to be not installed
+Pkg: MATHDOC found to be not installed
+Pkg: mathcad_help_ext found to be not installed
+Refreshing Space Required
+Refreshing Space Avail
+Pkg: MATHCAD found to be not installed
+Pkg: MATHHELP found to be not installed
+Pkg: MATHCAD_RC found to be not installed
+Pkg: MATHDOC found to be not installed
+Pkg: mathcad_help_ext found to be not installed
+You have enough space
+No architecture selected, selections hidden
+Generic PostFunc: ScreenProd
+C:\Program Files (x86) Exist and can write to 
+LP_NEW! 
+PsProduct::ScreenProdPostFunc called
+Pkg: MATHCAD found to be not installed
+Pkg: MATHHELP found to be not installed
+Pkg: MATHCAD_RC found to be not installed
+Pkg: MATHDOC found to be not installed
+Pkg: mathcad_help_ext found to be not installed
+size_avail: 1.19393e+011
+size_req  : 3.99033e+008
+pad_size_req  : 4.22975e+008
+PsShouldICopyFiles Initializing IncrementalUpdate = FALSE
+PsProduct::ScreenProdPostFunc called
+    <PsInstall::Refresh> Path: 'C:\Program Files (x86)\Mathcad\Mathcad 15'
+ <GetSpaceAvail> FreeSpace: 1.19393e+011
+SAVE EzProp OptionMenu label: ScreenProd.LoadPoint = [C:\Program Files (x86)\Mathcad\Mathcad 15]
+SAVE EzProp OptionMenu value: ScreenProd.LoadPoint = []
+Generic SkipScreen: ScreenMathcadCfg
+Generic PostFunc: ScreenMathcadCfg
+SAVE EzProp InputPanel: ScreenMathcadCfg.McadHelp = [C:\Program Files (x86)\Mathcad\Mathcad 15\doc]
+SAVE EzProp InputPanel: ScreenMathcadCfg.InputPanel1 = []
+SAVE EzProp InputPanel: ScreenMathcadCfg.McadRc = [C:\Program Files (x86)\Mathcad\Mathcad 15\Resource Center]
+SAVE EzProp InputPanel: ScreenMathcadCfg.InputPanel2 = []
+SAVE EzProp InputPanel: ScreenMathcadCfg.McadDoc = [C:\Program Files (x86)\Mathcad\Mathcad 15\Handbook]
+SAVE EzProp InputPanel: ScreenMathcadCfg.InputPanel3 = []
+SAVE EzProp InputPanel: ScreenMathcadCfg.McadTemplate = [C:\Program Files (x86)\Mathcad\Mathcad 15\template]
+SAVE EzProp InputPanel: ScreenMathcadCfg.InputPanel4 = []
+SAVE EzProp RadioGroup: ScreenMathcadCfg.RgrpMcadCfg = [XML14]
+ Skipping Screen: ScreenLicList
+Generic SkipScreen: ScreenWindows
+<PsGetVar> Failed for: PS_INSTLOG
+Using InstLog: C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no SHORTCUT_TYPE found
+Append to _ShortCutFolder: PTC\Mathcad
+punGetLogFileData failed
+punGetLogFileData failed
+psRegkeyCanWriteAdminKeys returned TRUE
+ERROR: invalid selection! 
+Generic PostFunc: ScreenWindows
+[Class PsLpcfgWindows]
+============ WinTab Info ============
+DesktopOn = 1
+StartMenuOn = 1
+ProgGrpOn = 1
+ProgGrpName = <PTC\Mathcad>
+StartupDirName = <C:\Users\undfr\OneDrive\Документы>
+UserpathOn = 0
+============             ============
+
+SAVE EzProp CheckButton: ScreenWindows.ScDesktop = [TRUE]
+SAVE EzProp CheckButton: ScreenWindows.ScStartMenu = [TRUE]
+SAVE EzProp CheckButton: ScreenWindows.ScProgramFolder = [TRUE]
+SAVE EzProp CheckButton: ScreenWindows.ScQuickLaunch = [TRUE]
+SAVE EzProp OptionMenu label: ScreenWindows.ShortcutFolder = [PTC\Mathcad]
+SAVE EzProp OptionMenu value: ScreenWindows.ShortcutFolder = [PTC\Mathcad]
+SAVE EzProp InputPanel: ScreenWindows.StartInDir = [C:\Users\undfr\OneDrive\Документы]
+SAVE EzProp RadioGroup: ScreenWindows.PathChoice = [systempath]
+PsShouldICopyFiles Initializing IncrementalUpdate = FALSE
+Not adding Backup and Restore install actions
+<PsGetVar> Failed for: PS_INF_PATH
+BEGIN PsInstallThread::DoAction
+ *** PsProduct::Install Start *** 
+ConvertDBAdd __LOADPOINT__ 'C:\Program Files (x86)\Mathcad\Mathcad 15'
+ConvertDBAdd __ARCH__ 'x86e_win64'
+PsInstAction::Execute 0
+p->Init_LogFile
+PsProduct::InitLogFile
+<PsGetVar> Failed for: PS_INSTLOG
+Using InstLog: C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\instlog.txt
+Log file doesn't exist: C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\instlog.txt
+GetByteSpaceReq MATHCAD return size = 1.72987e+008
+Skip PsRegisterUninstaller!
+GetByteSpaceReq MATHHELP return size = 4.78495e+007
+Skip PsRegisterUninstaller!
+GetByteSpaceReq MATHCAD_RC return size = 1.00045e+008
+Skip PsRegisterUninstaller!
+GetByteSpaceReq MATHDOC return size = 1.15384e+007
+Skip PsRegisterUninstaller!
+GetByteSpaceReq mathcad_help_ext return size = 6.66132e+007
+Skip PsRegisterUninstaller!
+GetByteSpaceReq MATHCAD_EXT_datapack return size = 1.3099e+007
+Skip PsRegisterUninstaller!
+GetByteSpaceReq MATHCAD_EXT_signal return size = 9.29792e+006
+Skip PsRegisterUninstaller!
+GetByteSpaceReq MATHCAD_EXT_wavelets return size = 1.47743e+007
+Skip PsRegisterUninstaller!
+GetByteSpaceReq MATHCAD_EXT_image return size = 2.9442e+007
+Skip PsRegisterUninstaller!
+Using InstLog: C:\Program Files (x86)\Mathcad\Mathcad 15\uninstall\instlog.bak
+punGetLogFileData failed
+ERROR or no PUN_PACKAGE found
+PsInstAction::Execute 2
+looking for ProgramFiles x86 
+Start AppendTable :: Directory
+End AppendTable :: Directory
+Start AppendTable :: Directory
+End AppendTable :: Directory
+Select * FROM `Registry` WHERE `Name`='DefaultSaveFormat' set registry value to XML14
+Start DeleteFromTable :: Registry
+End DeleteFromTable :: Registry
+Select * FROM `Registry` WHERE `Name`='HelpLanguage' set registry value to EN
+Select * FROM `Registry` WHERE `Name`='HBKLanguage' set registry value to EN
+Select * FROM `Registry` WHERE `Name`='TemplateLanguage' set registry value to EN
+Make sure download thread is complete before proceeding
+OK, PsDownloadThread isdone, so proceed...
+PsInstAction::Execute 4
+MSI COMMAND: msiexec.exe /I "C:\Users\undfr\AppData\Local\Temp\Mathcad15WixInstaller.msi" INSTALLLOCATION="C:\Program Files (x86)\Mathcad\Mathcad 15"
+<PsSystemCall> msiexec.exe /I "C:\Users\undfr\AppData\Local\Temp\Mathcad15WixInstaller.msi" INSTALLLOCATION="C:\Program Files (x86)\Mathcad\Mathcad 15"
+      WorkDir: E:\
+     ExitCode = 0
+       Return: 1
+------------------------------
+Make sure download thread is complete before proceeding
+OK, PsDownloadThread isdone, so proceed...
+PsInstAction::Execute 17
+p->PostFunc
+<PsSystemCall> C:\Program Files (x86)\Mathcad\Mathcad 15\MCLicense\MCLicense.exe
+      WorkDir: E:\
+     ExitCode = 0
+       Return: 1
+------------------------------
+MSI COMMAND: msiexec.exe /qb /I "E:\adobe\Distillr.msi" ISX_SERIALNUMBER="1071-1006-8094-6401-2690-6767" TRANSFORMS="E:\adobe\MathCAD.mst"
+<PsSystemCall> msiexec.exe /qb /I "E:\adobe\Distillr.msi" ISX_SERIALNUMBER="1071-1006-8094-6401-2690-6767" TRANSFORMS="E:\adobe\MathCAD.mst"
+      WorkDir: E:\
+     ExitCode = 0
+       Return: 1
+------------------------------
+ *** PsProduct::Install Done, Cancel: 0 ***
+END PsInstallThread::DoAction
+MyPsInstallThread is DONE
+<StopPsDownload>
+Wait() returned
+<StopPsDownload>
+main_dlg->Activate FAILED!
+STATUS my_main: 0

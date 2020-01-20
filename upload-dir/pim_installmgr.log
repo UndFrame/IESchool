@@ -1,0 +1,45 @@
+  PTC Installation assistant log file
+========= PIM Version: 6.0.3.0 ==========
+Чт ноя 21 20:44:28 19
+=======================================
+      Mathcad Prime Installation
+=======================================
+ Sessioninfo xml file :C:\Users\undfr\AppData\Local\Temp\7zSC0644799\pim\xml\sessioninfo.xml)
+sessioninfo created
+PimTop-sessioninfo created
+before test communication
+set platforms
+set languages prop
+В результате теста обнаружено, что клиентский профиль Microsoft .NET Framework 4 установлен. 
+В результате теста обнаружено, что платформа Microsoft .NET Framework 4 установлена. 
+Компонент Microsoft, который требуется только при установке PTC Mathcad Prime.
+Задан корневой путь установки: C:\Program Files\PTC
+Запуск установки PTC Mathcad Prime.
+Запуск установки PTC Mathcad Viewable Support.
+Запуск установки Diagnostic Tools.
+Чт ноя 21 20:44:56 19
+Загрузить файл: https://esd.ptc.com/files/PIM/MED-60893-CD-260_6-0-0-0/mathcad_viewable_support/Data1.cab.
+Для преобразования более старых документов Mathcad в документы
+PTC Mathcad Prime 6.0.0.0 требуется PTC Mathcad 15 M050 или более
+поздней версии. Чтобы активировать функцию преобразования, 
+загрузите и установите PTC Mathcad 15 M050 или более поздней
+версии, посетив http://www.ptc.com/engineering-math-software/mathcad/free-trial
+		Cached file: C:\Users\undfr\AppData\Roaming\PTC Download\MED-60893-CD-260_6-0-0-0\mathcad_viewable_support\Data1.cab in 44 seconds.
+Загрузить файл: https://esd.ptc.com/files/PIM/MED-60893-CD-260_6-0-0-0/mathcad_viewable_support/MathCAD.mst.
+		Cached file: C:\Users\undfr\AppData\Roaming\PTC Download\MED-60893-CD-260_6-0-0-0\mathcad_viewable_support\MathCAD.mst in 0 seconds.
+Загрузить файл: https://esd.ptc.com/files/PIM/MED-60893-CD-260_6-0-0-0/mathcad_viewable_support/Distillr.msi.
+		Cached file: C:\Users\undfr\AppData\Roaming\PTC Download\MED-60893-CD-260_6-0-0-0\mathcad_viewable_support\Distillr.msi in 1 seconds.
+Чт ноя 21 20:45:44 19
+Чт ноя 21 20:45:45 19
+Загрузить файл: https://esd.ptc.com/files/PIM/MED-60893-CD-260_6-0-0-0/ptcsh0/contact.vcf.
+		Cached file: C:\Users\undfr\AppData\Roaming\PTC Download\MED-60893-CD-260_6-0-0-0\ptcsh0\contact.vcf in 0 seconds.
+Загрузить файл: https://esd.ptc.com/files/PIM/MED-60893-CD-260_6-0-0-0/ptcsh0/PrimeWixInstaller_64bit.msi.
+		Cached file: C:\Users\undfr\AppData\Roaming\PTC Download\MED-60893-CD-260_6-0-0-0\ptcsh0\PrimeWixInstaller_64bit.msi in 109 seconds.
+Чт ноя 21 20:47:35 19
+Чт ноя 21 20:47:36 19
+Загрузить файл: https://esd.ptc.com/files/PIM/MED-60893-CD-260_6-0-0-0/install/addon/qualityagent_64.msi.
+		Cached file: C:\Users\undfr\AppData\Roaming\PTC Download\MED-60893-CD-260_6-0-0-0\install\addon\qualityagent_64.msi in 8 seconds.
+Чт ноя 21 20:47:45 19
+При выполнении командной строки "msiexec.exe /qn /norestart /I "C:\Users\undfr\AppData\Roaming\PTC Download\MED-60893-CD-260_6-0-0-0\ptcsh0\PrimeWixInstaller_64bit.msi" /lv "C:\Users\undfr\OneDrive\Документы/pim_prime_msi.log" INSTALLDIR="C:\Program Files\PTC\Mathcad Prime 6.0.0.0"" возвращен код завершения 0.
+При выполнении командной строки "msiexec.exe /qn /I "C:\Users\undfr\AppData\Roaming\PTC Download\MED-60893-CD-260_6-0-0-0\install\addon\qualityagent_64.msi" INSTALLDIR="C:\Program Files\PTC\DiagnosticTools"" возвращен код завершения 0.
+До свидания!
